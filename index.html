@@ -9,7 +9,7 @@
             position: -webkit-sticky;
             position: sticky;
             top: 0;
-            background-color: #475BE2;
+            background: linear-gradient(0, #0D2A47, #0D2A47);
             color: white;
         }
 
@@ -78,16 +78,23 @@
 
         .arrow {
             margin: auto;
+            margin-bottom: 100px;
             width: 100px;
         }
 
         .headerpapa {
             height: 35vh;
-            background: linear-gradient(0, #77DFE7, #cfebed);
+            background: linear-gradient(0, #77DFE7, #c8e9ec);
+            /*background-color: #77DFE7;*/
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
+            border-top: #77DFE7;
+            border-bottom: #77DFE7;
+            border-left: white;
+            border-right: white;
+            border-style: solid;
         }
 
         .icon1 {
@@ -183,7 +190,7 @@
         }
 
         footer {
-            background: black;
+            background: #0D2A47;
             color: white;
             padding: 50px;
         }
@@ -194,7 +201,7 @@
         }
 
         footer a {
-            color: red;
+            color: #F55657;
         }
 
         h3 {
@@ -206,6 +213,12 @@
             font-weight: 700;
             opacity: .7;
         }
+
+        #portrait {
+            border-radius: 60%;
+    
+
+        }
     </style>
 </head>
 
@@ -214,15 +227,15 @@
         <a href="#ausbildung">Ausbildung</a>
         <a href="#berufserfahrung">Berufserfahrung</a>
         <a href="#weiterbildungen">Weiterbildungen</a>
-        <a href="#skills">Skills</a>
-        <a href="#ueber-mich">Über mich</a>
+        <a href="#skills">Fähigkeiten</a>
+        <a href="#ueber-mich">Kurzinterview</a>
     </nav>
     <div class="header">
         <div class="avatar">
             <img src="./img/digitaler-nomade.png" />
         </div>
         <div class="typewriter">
-            <h1> I'm Maria. I'm great.</h1>
+            <h1> Hallo! Ich bin Maria.</h1>
         </div>
         <img class="wave" src="./img/wave.svg" />
     </div>
@@ -245,9 +258,10 @@
                     <img src="./img/tagebuch.gif" />
                 </div>
                 <div class="text">
-                    <h3>Bachelor Medieninformatik</h3>
-                    <p>Seit Oktober 2021<br>
-                        Technische Hochschule Brandenburg<br>
+                    <h3>Bachelor Medieninformatik
+                        <div class="subheading">Seit Oktober 2021</div>
+                    </h3>
+                    <p>Technische Hochschule Brandenburg
                     </p>
                 </div>
             </div>
@@ -260,9 +274,8 @@
                     <h3>Bachelor Sprechwissenschaften
                         <div class="subheading">Oktober 2012 - März 2019</div>
                     </h3>
-                    <p><br>
-                        Martin Luther Universität Halle/Saale<br>
-                        Rhetorik, Sprechkunst, Phonetik, Phonologie, Kommunikation
+                    <p>Martin Luther Universität Halle/Saale</p>
+                    <p>Rhetorik, Sprechkunst, Phonetik, Phonologie, Kommunikation
                     </p>
                 </div>
             </div>
@@ -272,7 +285,7 @@
                     <img src="./img/doktorhut.gif" />
                 </div>
                 <div class="text">
-                    <h3>Abitur
+                    <h3>Schulausbildung - Abitur
                         <div class="subheading">August 1999 - Juli 2011</div>
                     </h3>
                     <p>Domgymnasium Merseburg</p>
@@ -293,15 +306,28 @@
             </div>
         </div>
         <div class="container">
-
             <div class="entry">
                 <div class="image">
-                    <img src="./img/apfel.gif" />
+                    <img src="./img/startup.gif" />
                 </div>
                 <div class="text">
-                    <h3>Au Pair in Stockholm</h3>
-                    <p>August 2011 - Dezember 2011<br>
-                        Arbeit als Kinderbetreuung in finnischer Familie<br>
+                    <h3>Learning Engineer bei Area9 Lyceum
+                        <div class="subheading">Seit Oktober 2019</div>
+                    </h3>
+                    <p>Erstellung von E-Learning Kursen</p>
+                    <p>Ausbildung externer Learning Engineers
+                    </p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="image">
+                    <img src="./img/sprechblase.gif" />
+                </div>
+                <div class="text">
+                    <h3>Schauspielpatientin in der Lernklinik in Leipzig
+                        <div class="subheading">Seit Juli 2022</div>
+                    </h3>
+                    <p>Auswertung und Training der Kommunikation von Medizinstudente an der Universität Leipzig
                     </p>
                 </div>
             </div>
@@ -310,59 +336,10 @@
                     <img src="./img/apfel.gif" />
                 </div>
                 <div class="text">
-                    <h3>Praktikum in der Logopädie</h3>
-                    <p>März 2014 - April 2015<br>
-                        Dokumentation der Therapieeinheiten<br>
-                        Leitung eigener Therapiestunden bei Kleinkindern mit Sprach- und Sprechstörungen
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="entry">
-                <div class="image">
-                    <img src="./img/apfel.gif" />
-                </div>
-                <div class="text">
-                    <h3>Nachhilfe im Fach Deutsch für Kinder mit Lese-Rechtschreib-Schwäche</h3>
-                    <p>März 2015 - Juni 2017<br>
-                        Erstellung eines eigenen Lehrkonzeptes<br>
-                        1 mal wöchentlich Unterricht im Fach Deutsch mit besonderem Fokus auf visueller und auditiver
-                        Förderung und Angstabbau<br>
-                    </p>
-                </div>
-            </div>
-            <div class="entry">
-                <div class="image">
-                    <img src="./img/apfel.gif" />
-                </div>
-                <div class="text">
-                    <h3>Deutschförderung für geflüchtete Kinder im Rahmen eines Deutschkurses der DEKRA</h3>
-                    <p>Januar 2016 - April 2016<br>
-                        3 mal wöchentlich Unterricht im Fach Deutsch mit besonderem Fokus auf auditiver Förderung und
-                        Angstabbau<br> </p>
-                </div>
-            </div>
-            <div class="entry">
-                <div class="image">
-                    <img src="./img/apfel.gif" />
-                </div>
-                <div class="text">
-                    <h3>Leitung einer Theater AG am Landsberger Gymnasium</h3>
-                    <p>September 2015 - Juni 2016<br>
-                        Erstellung eines eigenen Lehrkonzeptes<br>
-                        1 mal wöchentlich Unterricht im Fach Theater
-                    </p>
-                </div>
-            </div>
-            <div class="entry">
-                <div class="image">
-                    <img src="./img/apfel.gif" />
-                </div>
-                <div class="text">
-                    <h3>Schauspielpatientin im SkillsLab in Halle</h3>
-                    <p>April 2017 - Juni 2019<br>
-                        Auswertung und Training der Kommunikation von Medizinstudente an der Martin Luther Universität
+                    <h3>Deutsch als Fremdsprache Unterricht
+                        <div class="subheading">Oktober 2018 - Januar 2019</div>
+                    </h3>
+                    <p>Erstellung von Lerneinheiten für Erasmusstudenten an der Burg Giebichenstein Kunsthochschule
                         Halle/Saale
                     </p>
                 </div>
@@ -372,40 +349,76 @@
                     <img src="./img/apfel.gif" />
                 </div>
                 <div class="text">
-                    <h3>Deutsch als Fremdsprache Unterricht</h3>
-                    <p>Oktober 2018 - Januar 2019<br>
-                        Erstellung von Lerneinheiten für Erasmusstudenten an der Burg Giebichenstein Kunsthochschule
-                        Halle/
-                        Saale<br>
+                    <h3>Schauspielpatientin im SkillsLab in Halle
+                        <div class="subheading">April 2017 - Juni 2019</div>
+                    </h3>
+                    <p>Auswertung und Training der Kommunikation von Medizinstudente an der Martin Luther Universität
+                        Halle/Saale
                     </p>
                 </div>
             </div>
             <div class="entry">
                 <div class="image">
-                    <img src="./img/sprechblase.gif" />
+                    <img src="./img/apfel.gif" />
                 </div>
                 <div class="text">
-                    <h3>Schauspielpatientin in der Lernklinik in Leipzig</h3>
-                    <p>
-                    <ul></ul>
-                    <li>Seit Juli 2022</li>
-                    <li>Auswertung und Training der Kommunikation von Medizinstudente an der Universität Leipzig</li>
-                    </ul>
+                    <h3>Leitung einer Theater AG am Landsberger Gymnasium
+                        <div class="subheading">September 2015 - Juni 2016</div>
+                    </h3>
+                    <p>Erstellung eines eigenen Lehrkonzeptes</p>
+                    <p>1 mal wöchentlich Unterricht im Fach Theater
                     </p>
                 </div>
             </div>
             <div class="entry">
                 <div class="image">
-                    <img src="./img/startup.gif" />
+                    <img src="./img/apfel.gif" />
                 </div>
                 <div class="text">
-                    <h3>Learning Engineer bei Area9 Lyceum</h3>
-                    <p>
-                    <ul>
-                        <li>Seit Oktober 2019</li>
-                        <li>Erstellung von E-Learning Kursen</li>
-                        <li> Ausbildung externer Learning Engineers</li>
-                    </ul>
+                    <h3>Deutschförderung für geflüchtete Kinder im Rahmen eines Deutschkurses der DEKRA
+                        <div class="subheading">Januar 2016 - April 2016</div>
+                    </h3>
+                    <p>3 mal wöchentlich Unterricht im Fach Deutsch mit besonderem Fokus auf auditiver Förderung und
+                        Angstabbau</p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="image">
+                    <img src="./img/apfel.gif" />
+                </div>
+                <div class="text">
+                    <h3>Nachhilfe im Fach Deutsch für Kinder mit Lese-Rechtschreib-Schwäche
+                        <div class="subheading">März 2015 - Juni 2017</div>
+                    </h3>
+                    <p>Erstellung eines eigenen Lehrkonzeptes</p>
+                    <p>1 mal wöchentlich Unterricht im Fach Deutsch mit besonderem Fokus auf visueller und auditiver
+                        Förderung und Angstabbau
+                    </p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="image">
+                    <img src="./img/apfel.gif" />
+                </div>
+                <div class="text">
+                    <h3>Praktikum in der Logopädie
+                        <div class="subheading">März 2014 - April 2015</div>
+                    </h3>
+                    <p>Dokumentation der Therapieeinheiten</p>
+                    <p>Leitung eigener Therapiestunden bei Kleinkindern mit Sprach- und Sprechstörungen
+                    </p>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="image">
+                    <img src="./img/apfel.gif" />
+                </div>
+                <div class="text">
+                    <h3>Au Pair in Stockholm
+                        <div class="subheading">August 2011 - Dezember 2011</div>
+                    </h3>
+                    <p>Arbeit als Kinderbetreuung in finnischer Familie<br>
                     </p>
                 </div>
             </div>
@@ -418,7 +431,7 @@
                 <img class="icon1" src="./img/studie.png">
             </div>
             <div>
-                <h1 class="weiterbildung">Weiterbildung und Projekte</h1>
+                <h1 class="weiterbildung">Weiterbildungen und Projekte</h1>
             </div>
         </div>
         <div class="container">
@@ -428,42 +441,40 @@
                     <img src="./img/idee.gif" />
                 </div>
                 <div class="text">
-                    <p>
-                    <ul>
-                        <li>Unterstützung der freien Theaterszene in Halle bei kleineren Projekten</li>
-                        <li>Weiterbildung im Bereich Theaterpädagogik im Social Impact Lab</li>
-                        <li>Praktikum im Kindergarten und Theater</li>
-                        <li>Weiterbildung in Gesang und Musiktheorie am Konservatorium Halle</li>
-                        <li>Promotionarbeit auf mehreren Messen</li>
-                    </ul>
-                    </p>
+                    <p>Unterstützung der freien Theaterszene in Halle bei kleineren Projekten</p><br>
+                    <p>Weiterbildung im Bereich Theaterpädagogik im Social Impact Lab</p><br>
+                    <p>Praktikum im Kindergarten und Theater</p><br>
+                    <p>Weiterbildung in Gesang und Musiktheorie am Konservatorium Halle</p><br>
+                    <p>Promotionarbeit auf mehreren Messen</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="skills">
-        <div class="headerpapa2">
+        <div class="headerpapa">
             <div>
-                <img class="icon1" src="./img/studie.png">
+                <img class="icon1" src="./img/aufgabe-erledigt.png">
             </div>
             <div>
-                <h1 class="weiterbildung">Über Mich</h1>
+                <h1 class="weiterbildung">Fähigkeiten</h1>
             </div>
         </div>
         <div class="container">
             <div class="entry">
                 <div class="image">
-                    <img src="./img/idee.gif" />
+                    <img src="./img/wachstum.gif" />
                 </div>
                 <div class="text">
                     <p>
                     <ul>
-                        <li>Unterstützung der freien Theaterszene in Halle bei kleineren Projekten</li>
-                        <li>Weiterbildung im Bereich Theaterpädagogik im Social Impact Lab</li>
-                        <li>Praktikum im Kindergarten und Theater</li>
-                        <li>Weiterbildung in Gesang und Musiktheorie am Konservatorium Halle</li>
-                        <li>Promotionarbeit auf mehreren Messen</li>
+                        <p>Rhetorik 2/5</p><br>
+                        <p>Sprechbildung 4/5</p><br>
+                        <p>Kommunikation 3/5</p><br>
+                        <p>Pädagogik für Kinder 3/5</p><br>
+                        <p>Erwachsenenbildung 4/5</p><br>
+                        <p>Webentwicklung 1/5</p><br>
+                        <p>Datenbanken 2/5</p>
                     </ul>
                     </p>
                 </div>
@@ -472,32 +483,48 @@
     </section>
 
     <section id="ueber-mich">
-        <div class="headerpapa2">
+        <div class="headerpapa">
             <div>
-                <img class="icon1" src="./img/studie.png">
+                <img class="icon1" src="./img/frage.png">
             </div>
             <div>
-                <h1 class="weiterbildung">Über Mich</h1>
+                <h1 class="weiterbildung">Kurzinterview</h1>
             </div>
         </div>
         <div class="container">
 
             <div class="entry">
                 <div class="image">
-                    <img src="./img/idee.gif" />
+                    <img id="portrait" src="./img/portrait.png" />
                 </div>
                 <div class="text">
                     <p>
-                    <ul>
-                        <li>Unterstützung der freien Theaterszene in Halle bei kleineren Projekten</li>
-                        <li>Weiterbildung im Bereich Theaterpädagogik im Social Impact Lab</li>
-                        <li>Praktikum im Kindergarten und Theater</li>
-                        <li>Weiterbildung in Gesang und Musiktheorie am Konservatorium Halle</li>
-                        <li>Promotionarbeit auf mehreren Messen</li>
-                    </ul>
+                        <div class="subheading">Was sind deine aktuellen Hobbies?</div>
+                    <p>In meiner Freizeit male ich gerne. Am liebsten mit Acrylfarben und auf Leinwand. 
+                        Außerdem versuche ich mir gerade das Joggen anzutrainieren.
+                    </p><br>
+                    <div class="subheading">Wovon hast du gar keine Ahnung?</div>
+                    </h3>
+                    <p>Automarken. Ich schaffe es lediglich Autos nach ihren Farben zu unterscheiden.
+                    </p><br>
+                    <div class="subheading">Hast du eine komische Angewohnheit?</div>
+                    </h3>
+                    <p>Beim Essen muss ich ständig meine Finger aneinander reiben. 
+                        Außerdem muss ich 2 Mal checken, ob der Herd aus ist, bevor ich die Wohnung verlasse.
+                    </p><br>
+                    <div class="subheading">Was hat dich in deinem Leben sehr geprägt?</div>
+                    </h3>
+                    <p>Ich habe im Alter von 14 bis 20 Jahren Theater gespielt. 
+                        In dieser sowieso sehr bewegenden Zeit war es sehr prägend, sich intensiv mit der Denkweise anderer Personen auseinanderzusetzen.
+                    </p><br>
+                    <div class="subheading">Was nervt dich?</div>
+                    </h3>
+                    <p>Gegenwind beim Radfahren und wenn Menschen in Filmen nicht auf die Straße schauen beim Autofahren.
                     </p>
                 </div>
+                </p>
             </div>
+        </div>
         </div>
     </section>
 
